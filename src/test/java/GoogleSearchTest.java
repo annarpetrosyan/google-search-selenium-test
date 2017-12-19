@@ -25,7 +25,6 @@ public class GoogleSearchTest {
         resultPage = new ResultPage(driver);
     }
 
-    //Test Completed (part of home task)
     @Test
     public void googleSearchTest(){
         googleMainPage.searchText("Հայաստան");
