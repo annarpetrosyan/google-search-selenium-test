@@ -17,7 +17,7 @@ public class MultiWindowTest {
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "C:\\Windows\\chromedriver.exe");
         driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        driver.manage().window().maximize() ;
         driver.manage().deleteAllCookies();
         windowsPage = new WindowsPage(driver);
     }
